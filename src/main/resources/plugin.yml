@@ -1,0 +1,22 @@
+name: TheIsland
+main: com.c45y.TheIsland.TheIsland
+version: 0.1
+load: startup
+permissions:
+    island.op:
+        description: A admin type player
+        default: op
+    island.user:
+        description: A normal user
+        default: true
+commands:
+  resourcechest:
+    description: Set the resource chest to be the chest below you!
+    permission: island.op
+    usage: |
+        /resourcechest
+  vote:
+    description: Vote a player off the server
+    permission: island.user
+    usage: |
+        /vote [user]

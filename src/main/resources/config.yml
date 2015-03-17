@@ -1,0 +1,10 @@
+resourcechest:
+    x: 0
+    y: 90
+    z: 0
+    replenish: 100
+vote:
+    required: 10
+players:
+    pvp: false
+    permdeath: false
